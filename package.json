@@ -1,0 +1,21 @@
+{
+  "name": "static-html",
+  "version": "1.0.0",
+  "description": "Simplest test and experiment with html/js/css",
+  "main": "index.html",
+  "scripts": {
+    "start": "node index.js",
+    "watch": "browser-sync start --server 'src' --files 'src'"
+  },
+  "keywords": [
+    "simple",
+    "html",
+    "js",
+    "css"
+  ],
+  "author": "Jason Ko",
+  "license": "MIT",
+  "devDependencies": {
+    "browser-sync": "^2.27.7"
+  }
+}
