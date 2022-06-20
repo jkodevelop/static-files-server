@@ -7,5 +7,9 @@ var browserSync = require("browser-sync").create();
 browserSync.init({
     watch: true,
     server: "./src",
-    injectChanges: false
+    injectChanges: false,
+    port: 2000,
+    ui:{
+        port: 2001,
+    },
 });
